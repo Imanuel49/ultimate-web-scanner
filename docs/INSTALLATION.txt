@@ -1,0 +1,129 @@
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║     🔒 ULTIMATE WEB VULNERABILITY SCANNER v5.0                       ║
+║                    Installation Guide                                 ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
+
+📦 QUICK INSTALLATION
+═══════════════════════════════════════════════════════════════════════
+
+Linux/Ubuntu/Debian:
+────────────────────
+$ sudo apt update
+$ sudo apt install python3 python3-pip -y
+$ pip3 install -r requirements.txt
+$ python3 ultimate_scanner_v5.py --help
+
+Termux (Android):
+─────────────────
+$ pkg update && pkg upgrade -y
+$ pkg install python -y
+$ pip install -r requirements.txt
+$ python ultimate_scanner_v5.py --help
+
+macOS:
+──────
+$ brew install python3
+$ pip3 install -r requirements.txt
+$ python3 ultimate_scanner_v5.py --help
+
+Windows:
+────────
+> py -m pip install -r requirements.txt
+> py ultimate_scanner_v5.py --help
+
+Docker:
+───────
+$ docker build -t scanner .
+$ docker run scanner --help
+
+
+🚀 FIRST SCAN
+═══════════════════════════════════════════════════════════════════════
+
+Basic:
+$ python3 ultimate_scanner_v5.py https://target.com
+
+Fast (recommended):
+$ python3 ultimate_scanner_v5.py https://target.com --threads 20
+
+With reports:
+$ python3 ultimate_scanner_v5.py https://target.com --output report.json --pdf
+
+
+✅ VERIFY INSTALLATION
+═══════════════════════════════════════════════════════════════════════
+
+Run test suite:
+$ python3 test_scanner.py
+
+Expected output:
+✓ ALL TESTS PASSED!
+Scanner is ready to use.
+
+
+📚 DOCUMENTATION
+═══════════════════════════════════════════════════════════════════════
+
+1. START HERE         → 00_START_HERE.md
+2. Quick Start        → QUICKSTART.md
+3. Full Documentation → README_v5.md
+4. Version Comparison → COMPARISON.md
+5. Project Summary    → PROJECT_SUMMARY.md
+
+
+🎯 FEATURES OVERVIEW
+═══════════════════════════════════════════════════════════════════════
+
+✓ 70+ Vulnerability Types
+✓ Multi-threading (10x faster)
+✓ Expert Validation (99%+ accuracy)
+✓ Cloud Security (AWS/Azure/GCP)
+✓ API Key Detection (20+ types)
+✓ Container Security (Docker/K8s)
+✓ PDF Reports with CVSS scores
+✓ WAF Bypass (15+ techniques)
+✓ Docker Support
+✓ CI/CD Integration
+
+
+⚠️  LEGAL NOTICE
+═══════════════════════════════════════════════════════════════════════
+
+✅ AUTHORIZED USE ONLY:
+   - Your own websites
+   - Bug bounty programs
+   - Authorized penetration testing
+   - Security research with permission
+
+❌ PROHIBITED:
+   - Unauthorized scanning
+   - Malicious activities
+   - Critical infrastructure
+
+📜 PENALTIES:
+   Indonesia: UU ITE (6-12 years prison, Rp 600M-12B fine)
+   USA: Computer Fraud and Abuse Act
+   UK: Computer Misuse Act
+
+Always get written authorization before scanning!
+
+
+📞 SUPPORT
+═══════════════════════════════════════════════════════════════════════
+
+Documentation: All .md files in this folder
+Test Suite: python3 test_scanner.py
+Issues: Open GitHub issue
+Community: Discord/Slack
+
+
+═══════════════════════════════════════════════════════════════════════
+Version: 5.0.0 Ultimate Edition
+Release: November 2025
+License: Educational Use Only
+═══════════════════════════════════════════════════════════════════════
+
+Happy Ethical Hacking! 🔒
+GUNAKAN DENGAN BIJAK DAN BERTANGGUNG JAWAB!
